@@ -1,0 +1,20 @@
+C:\Users\Giannis\source\repos\DigitCashier\obj\Debug\DigitCashier.csprojResolveAssemblyReference.cache
+C:\Users\Giannis\source\repos\DigitCashier\obj\Debug\DigitCashier.Properties.Resources.resources
+C:\Users\Giannis\source\repos\DigitCashier\obj\Debug\DigitCashier.csproj.GenerateResource.Cache
+C:\Users\Giannis\source\repos\DigitCashier\obj\Debug\DigitCashier.csproj.CoreCompileInputs.cache
+C:\Users\Giannis\source\repos\DigitCashier\bin\Debug\DigitCashier.exe.config
+C:\Users\Giannis\source\repos\DigitCashier\bin\Debug\DigitCashier.exe
+C:\Users\Giannis\source\repos\DigitCashier\bin\Debug\DigitCashier.pdb
+C:\Users\Giannis\source\repos\DigitCashier\obj\Debug\DigitCashier.exe
+C:\Users\Giannis\source\repos\DigitCashier\obj\Debug\DigitCashier.pdb
+C:\Users\Giannis\source\repos\DigitCashier\obj\Debug\DigitCashier.LoginForm.resources
+C:\Users\jamie\Desktop\Team Digit Marlarkay\Public (2)\Public\DigitCashier\bin\Debug\DigitCashier.exe.config
+C:\Users\jamie\Desktop\Team Digit Marlarkay\Public (2)\Public\DigitCashier\bin\Debug\DigitCashier.exe
+C:\Users\jamie\Desktop\Team Digit Marlarkay\Public (2)\Public\DigitCashier\bin\Debug\DigitCashier.pdb
+C:\Users\jamie\Desktop\Team Digit Marlarkay\Public (2)\Public\DigitCashier\obj\Debug\DigitCashier.csprojResolveAssemblyReference.cache
+C:\Users\jamie\Desktop\Team Digit Marlarkay\Public (2)\Public\DigitCashier\obj\Debug\DigitCashier.LoginForm.resources
+C:\Users\jamie\Desktop\Team Digit Marlarkay\Public (2)\Public\DigitCashier\obj\Debug\DigitCashier.Properties.Resources.resources
+C:\Users\jamie\Desktop\Team Digit Marlarkay\Public (2)\Public\DigitCashier\obj\Debug\DigitCashier.csproj.GenerateResource.Cache
+C:\Users\jamie\Desktop\Team Digit Marlarkay\Public (2)\Public\DigitCashier\obj\Debug\DigitCashier.csproj.CoreCompileInputs.cache
+C:\Users\jamie\Desktop\Team Digit Marlarkay\Public (2)\Public\DigitCashier\obj\Debug\DigitCashier.exe
+C:\Users\jamie\Desktop\Team Digit Marlarkay\Public (2)\Public\DigitCashier\obj\Debug\DigitCashier.pdb
