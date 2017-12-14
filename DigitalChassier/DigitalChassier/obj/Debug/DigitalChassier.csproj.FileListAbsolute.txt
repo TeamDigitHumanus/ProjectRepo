@@ -1,0 +1,11 @@
+C:\Users\Parkhouse media\source\repos\DigitalChassier\DigitalChassier\bin\Debug\DigitalChassier.exe.config
+C:\Users\Parkhouse media\source\repos\DigitalChassier\DigitalChassier\bin\Debug\DigitalChassier.exe
+C:\Users\Parkhouse media\source\repos\DigitalChassier\DigitalChassier\bin\Debug\DigitalChassier.pdb
+C:\Users\Parkhouse media\source\repos\DigitalChassier\DigitalChassier\obj\Debug\DigitalChassier.csprojResolveAssemblyReference.cache
+C:\Users\Parkhouse media\source\repos\DigitalChassier\DigitalChassier\obj\Debug\DigitalChassier.Huvudmeny.resources
+C:\Users\Parkhouse media\source\repos\DigitalChassier\DigitalChassier\obj\Debug\DigitalChassier.Loggin.resources
+C:\Users\Parkhouse media\source\repos\DigitalChassier\DigitalChassier\obj\Debug\DigitalChassier.Properties.Resources.resources
+C:\Users\Parkhouse media\source\repos\DigitalChassier\DigitalChassier\obj\Debug\DigitalChassier.csproj.GenerateResource.Cache
+C:\Users\Parkhouse media\source\repos\DigitalChassier\DigitalChassier\obj\Debug\DigitalChassier.csproj.CoreCompileInputs.cache
+C:\Users\Parkhouse media\source\repos\DigitalChassier\DigitalChassier\obj\Debug\DigitalChassier.exe
+C:\Users\Parkhouse media\source\repos\DigitalChassier\DigitalChassier\obj\Debug\DigitalChassier.pdb
