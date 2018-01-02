@@ -51,6 +51,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClassPrd.cs" />
+    <Compile Include="DialogBoxForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogBoxForm.Designer.cs">
+      <DependentUpon>DialogBoxForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DisCodeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DisCodeForm.Designer.cs">
+      <DependentUpon>DisCodeForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -67,6 +79,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Cashier.resx">
       <DependentUpon>Cashier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogBoxForm.resx">
+      <DependentUpon>DialogBoxForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisCodeForm.resx">
+      <DependentUpon>DisCodeForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
