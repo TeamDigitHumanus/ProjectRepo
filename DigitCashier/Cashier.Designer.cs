@@ -57,8 +57,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.txtTotal = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnCash = new System.Windows.Forms.Button();
             this.btnCard = new System.Windows.Forms.Button();
@@ -313,17 +311,18 @@
             this.richtxtEntries.TabIndex = 16;
             this.richtxtEntries.TabStop = false;
             this.richtxtEntries.Text = "";
+            this.richtxtEntries.TextChanged += new System.EventHandler(this.richtxtEntries_TextChanged);
             // 
             // txtSum
             // 
             this.txtSum.BackColor = System.Drawing.Color.SlateGray;
             this.txtSum.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtSum.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSum.Location = new System.Drawing.Point(506, 432);
+            this.txtSum.Location = new System.Drawing.Point(507, 432);
             this.txtSum.Name = "txtSum";
             this.txtSum.ReadOnly = true;
             this.txtSum.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.txtSum.Size = new System.Drawing.Size(110, 20);
+            this.txtSum.Size = new System.Drawing.Size(154, 20);
             this.txtSum.TabIndex = 17;
             this.txtSum.TabStop = false;
             this.txtSum.Text = "0";
@@ -372,10 +371,10 @@
             this.txtBoxDis.BackColor = System.Drawing.Color.SlateGray;
             this.txtBoxDis.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtBoxDis.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBoxDis.Location = new System.Drawing.Point(567, 457);
+            this.txtBoxDis.Location = new System.Drawing.Point(572, 457);
             this.txtBoxDis.Name = "txtBoxDis";
             this.txtBoxDis.ReadOnly = true;
-            this.txtBoxDis.Size = new System.Drawing.Size(49, 21);
+            this.txtBoxDis.Size = new System.Drawing.Size(63, 21);
             this.txtBoxDis.TabIndex = 21;
             this.txtBoxDis.TabStop = false;
             this.txtBoxDis.Text = "0";
@@ -396,7 +395,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(619, 457);
+            this.label4.Location = new System.Drawing.Point(639, 456);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(25, 24);
             this.label4.TabIndex = 23;
@@ -406,10 +405,10 @@
             // 
             this.txtTotal.BackColor = System.Drawing.SystemColors.Control;
             this.txtTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTotal.Location = new System.Drawing.Point(508, 481);
+            this.txtTotal.Location = new System.Drawing.Point(507, 481);
             this.txtTotal.Name = "txtTotal";
             this.txtTotal.ReadOnly = true;
-            this.txtTotal.Size = new System.Drawing.Size(110, 27);
+            this.txtTotal.Size = new System.Drawing.Size(157, 27);
             this.txtTotal.TabIndex = 24;
             this.txtTotal.TabStop = false;
             this.txtTotal.Text = "0";
@@ -425,26 +424,6 @@
             this.label5.Size = new System.Drawing.Size(73, 20);
             this.label5.TabIndex = 25;
             this.label5.Text = "TOTAL :";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(619, 432);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(42, 20);
-            this.label6.TabIndex = 26;
-            this.label6.Text = "SEK";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(619, 485);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(42, 20);
-            this.label7.TabIndex = 27;
-            this.label7.Text = "SEK";
             // 
             // groupBox1
             // 
@@ -466,6 +445,7 @@
             this.btnCash.TabIndex = 5;
             this.btnCash.Text = "CASH";
             this.btnCash.UseVisualStyleBackColor = true;
+            this.btnCash.Click += new System.EventHandler(this.btnCash_Click);
             // 
             // btnCard
             // 
@@ -513,8 +493,6 @@
             this.Controls.Add(this.lblDate);
             this.Controls.Add(this.lblTime);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.txtTotal);
             this.Controls.Add(this.label4);
@@ -573,7 +551,6 @@
         private System.Windows.Forms.ToolStripMenuItem fILEToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem lOGOUTToolStripMenuItem;
         private System.Windows.Forms.Button btnAdd;
-        private System.Windows.Forms.RichTextBox richtxtEntries;
         private System.Windows.Forms.TextBox txtSum;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnClear;
@@ -581,15 +558,14 @@
         private System.Windows.Forms.TextBox txtBoxDis;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txtTotal;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button btnCash;
         private System.Windows.Forms.Button btnCard;
         private System.Windows.Forms.Label lblTime;
         private System.Windows.Forms.Label lblDate;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.TextBox txtTotal;
+        public System.Windows.Forms.RichTextBox richtxtEntries;
     }
 }

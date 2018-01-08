@@ -9,6 +9,8 @@ C:\Users\Giannis\source\repos\DigitCashier\obj\Debug\DigitCashier.csproj.CoreCom
 C:\Users\Giannis\source\repos\DigitCashier\obj\Debug\DigitCashier.exe
 C:\Users\Giannis\source\repos\DigitCashier\obj\Debug\DigitCashier.pdb
 C:\Users\Giannis\source\repos\DigitCashier\obj\Debug\DigitCashier.Cashier.resources
-C:\Users\Giannis\source\repos\DigitCashier\obj\Debug\DigitCashier.csprojResolveAssemblyReference.cache
 C:\Users\Giannis\source\repos\DigitCashier\obj\Debug\DigitCashier.DialogBoxForm.resources
 C:\Users\Giannis\source\repos\DigitCashier\obj\Debug\DigitCashier.DisCodeForm.resources
+C:\Users\Giannis\source\repos\DigitCashier\obj\Debug\DigitCashier.CashForm.resources
+C:\Users\Giannis\source\repos\DigitCashier\obj\Debug\DigitCashier.csprojResolveAssemblyReference.cache
+C:\Users\Giannis\source\repos\DigitCashier\obj\Debug\DigitCashier.ReceiptForm.resources
