@@ -156,7 +156,8 @@ namespace DigitCashier
             string[] separator = { " ", "\n" };  //Reading the values from the text box
             string[] allLines = richtxtEntries.Text.Split(separator, StringSplitOptions.RemoveEmptyEntries);
             ////float price = Array.FindIndex(allLines, element => element.Contains("."));
-            foreach (string pris in allLines)  //Getting the element that is the price and sum up the values
+
+            foreach (string pris in allLines)   //Getting the element that has the price and sum up the values
             {
                 if (pris.Contains("."))
                 {
@@ -248,17 +249,34 @@ namespace DigitCashier
             richtxtEntries.ScrollToCaret();
         }
 
-        public string GetEntries
-        {
-            get { return richtxtEntries.Text; }
-            set { richtxtEntries.Text = value; }
-        }
-
         private void btnCash_Click(object sender, EventArgs e)
         {
             CashForm cashForm = new CashForm();
             cashForm.Show();
             cashForm.txtTotal.Text = txtTotal.Text;
+            cashForm.label4.Text = richtxtEntries.Text;
+            cashForm.label5.Text = lblTime.Text;
+            cashForm.label6.Text = lblDate.Text;
+            richtxtEntries.Clear();
+            txtSum.Text = "0";
+            txtEntry1.Clear();
+            txtBoxDis.Text = "0";
+            txtTotal.Text = "0";
+        }
+
+        private void btnCard_Click(object sender, EventArgs e)
+        {
+            CardForm cardForm = new CardForm();
+            cardForm.Show();
+            cardForm.txtTotal.Text = txtTotal.Text;
+            cardForm.label2.Text = richtxtEntries.Text;
+            cardForm.label3.Text = lblTime.Text;
+            cardForm.label4.Text = lblDate.Text;
+            richtxtEntries.Clear();
+            txtSum.Text = "0";
+            txtEntry1.Clear();
+            txtBoxDis.Text = "0";
+            txtTotal.Text = "0";
         }
     }
 }

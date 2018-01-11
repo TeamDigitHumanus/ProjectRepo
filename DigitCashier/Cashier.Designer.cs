@@ -457,6 +457,7 @@
             this.btnCard.TabIndex = 4;
             this.btnCard.Text = "CARD";
             this.btnCard.UseVisualStyleBackColor = false;
+            this.btnCard.Click += new System.EventHandler(this.btnCard_Click);
             // 
             // lblTime
             // 
@@ -545,17 +546,13 @@
         private System.Windows.Forms.Button btnOne;
         private System.Windows.Forms.Button btnAsterisk;
         private System.Windows.Forms.Button btnHash;
-        private System.Windows.Forms.TextBox txtEntry1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem fILEToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem lOGOUTToolStripMenuItem;
         private System.Windows.Forms.Button btnAdd;
-        private System.Windows.Forms.TextBox txtSum;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Button btnDisCoup;
-        private System.Windows.Forms.TextBox txtBoxDis;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
@@ -565,7 +562,11 @@
         private System.Windows.Forms.Label lblTime;
         private System.Windows.Forms.Label lblDate;
         private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.TextBox txtTotal;
+        public System.Windows.Forms.TextBox txtEntry1;
+        public System.Windows.Forms.TextBox txtSum;
+        public System.Windows.Forms.TextBox txtBoxDis;
+        public System.Windows.Forms.TextBox txtTotal;
         public System.Windows.Forms.RichTextBox richtxtEntries;
+        public System.Windows.Forms.Button btnClear;
     }
 }

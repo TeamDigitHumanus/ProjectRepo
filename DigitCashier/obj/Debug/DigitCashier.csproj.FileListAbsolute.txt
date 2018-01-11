@@ -14,3 +14,4 @@ C:\Users\Giannis\source\repos\DigitCashier\obj\Debug\DigitCashier.DisCodeForm.re
 C:\Users\Giannis\source\repos\DigitCashier\obj\Debug\DigitCashier.CashForm.resources
 C:\Users\Giannis\source\repos\DigitCashier\obj\Debug\DigitCashier.csprojResolveAssemblyReference.cache
 C:\Users\Giannis\source\repos\DigitCashier\obj\Debug\DigitCashier.ReceiptForm.resources
+C:\Users\Giannis\source\repos\DigitCashier\obj\Debug\DigitCashier.CardForm.resources

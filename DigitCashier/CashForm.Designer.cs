@@ -35,13 +35,16 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.btnReceipt = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtCashAmount
             // 
             this.txtCashAmount.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtCashAmount.Location = new System.Drawing.Point(192, 119);
-            this.txtCashAmount.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtCashAmount.Margin = new System.Windows.Forms.Padding(5);
             this.txtCashAmount.Name = "txtCashAmount";
             this.txtCashAmount.Size = new System.Drawing.Size(196, 30);
             this.txtCashAmount.TabIndex = 0;
@@ -55,7 +58,7 @@
             this.txtTotal.BackColor = System.Drawing.SystemColors.Control;
             this.txtTotal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtTotal.Location = new System.Drawing.Point(192, 151);
-            this.txtTotal.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtTotal.Margin = new System.Windows.Forms.Padding(5);
             this.txtTotal.Name = "txtTotal";
             this.txtTotal.ReadOnly = true;
             this.txtTotal.Size = new System.Drawing.Size(196, 30);
@@ -69,7 +72,7 @@
             this.txtChange.BackColor = System.Drawing.SystemColors.Control;
             this.txtChange.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtChange.Location = new System.Drawing.Point(192, 183);
-            this.txtChange.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtChange.Margin = new System.Windows.Forms.Padding(5);
             this.txtChange.Name = "txtChange";
             this.txtChange.ReadOnly = true;
             this.txtChange.Size = new System.Drawing.Size(196, 30);
@@ -113,7 +116,7 @@
             this.btnReceipt.BackColor = System.Drawing.Color.Snow;
             this.btnReceipt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnReceipt.Location = new System.Drawing.Point(150, 287);
-            this.btnReceipt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnReceipt.Margin = new System.Windows.Forms.Padding(4);
             this.btnReceipt.Name = "btnReceipt";
             this.btnReceipt.Size = new System.Drawing.Size(150, 55);
             this.btnReceipt.TabIndex = 6;
@@ -121,12 +124,42 @@
             this.btnReceipt.UseVisualStyleBackColor = false;
             this.btnReceipt.Click += new System.EventHandler(this.btnReceipt_Click);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(25, 229);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(0, 25);
+            this.label4.TabIndex = 7;
+            this.label4.Visible = false;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(83, 45);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(0, 25);
+            this.label5.TabIndex = 8;
+            this.label5.Visible = false;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(80, 86);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(0, 25);
+            this.label6.TabIndex = 9;
+            this.label6.Visible = false;
+            // 
             // CashForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SlateGray;
             this.ClientSize = new System.Drawing.Size(432, 403);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.btnReceipt);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -135,7 +168,7 @@
             this.Controls.Add(this.txtTotal);
             this.Controls.Add(this.txtCashAmount);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "CashForm";
@@ -155,5 +188,8 @@
         private System.Windows.Forms.Button btnReceipt;
         public System.Windows.Forms.TextBox txtTotal;
         public System.Windows.Forms.TextBox txtCashAmount;
+        public System.Windows.Forms.Label label4;
+        public System.Windows.Forms.Label label5;
+        public System.Windows.Forms.Label label6;
     }
 }
